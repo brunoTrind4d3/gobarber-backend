@@ -1,5 +1,4 @@
 import * as Yup from 'yup';
-import { Field } from 'pg-packet-stream/dist/messages';
 import User from '../models/User';
 
 class UserController {
