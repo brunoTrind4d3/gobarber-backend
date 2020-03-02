@@ -1,4 +1,4 @@
 export default {
-  default: '127.0.0.1',
-  port: 6379,
+  default: process.env.REDIS_HOST,
+  port: process.env.REDIS_PORT,
 };
